@@ -1,0 +1,26 @@
+{
+  "name": "dtx-base",
+  "version": "1.0.0",
+  "description": "Base Module to simplify IIFE-centric modularization.",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevTactix/dtx-base.git"
+  },
+  "keywords": [
+    "IIFE",
+    "modularization"
+  ],
+  "author": "Thomas Sandberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevTactix/dtx-base/issues"
+  },
+  "homepage": "https://github.com/DevTactix/dtx-base#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
