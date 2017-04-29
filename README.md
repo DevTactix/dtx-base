@@ -8,13 +8,16 @@ Before _ES2015_ and modularization models like _AMD_ and _CommonJS_ dealing with
 The _dtx-base_ simplifies IIFE-centric modularization and creation of namespaces.
 
 ## Description
-To instantiate a module simply call the BaseModule constructor with first parameter being _the name of the module_ and the optional second parameter being _an already existing namespace object_.
+To instantiate a module simply call the _BaseModule_ constructor with first parameter being _the name of the module_ and the optional second parameter being _an already existing namespace object_.
 
 ## Implementation
 1. Add the file _dtx-base.js_ as a dependency.
 2. Now you are ready to implement.
 
 ```javascript
+/**
+ * EXAMPLE 1: Create simple namespace.
+ */
 // Create namespace.
 (function (self) {
     self.hi = hi;
@@ -30,6 +33,9 @@ SimpleRoot.hi();
 ```
 
 ```javascript
+/**
+ * EXAMPLE 2: Create namespace with root and child.
+ */
 // Create root namespace.
 var ParentRoot = new BaseModule("ParentRoot");
 
