@@ -3,6 +3,8 @@
  */
 // Create namespace.
 (function (self) {
+    "use strict";
+
     self.hi = hi;
 
     function hi() {
