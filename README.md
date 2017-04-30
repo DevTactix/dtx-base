@@ -6,7 +6,7 @@ Base module to simplify IIFE-centric modularization.
 Before _ES2015_ and modularization models like _AMD_ and _CommonJS_ dealing with global scope as well as containing functions into some kind of entity, i.e. modularization, was achieved by use of _Immediately-Invoked Function Expressions_ (_IIFE:s_).
 
 The _dtx-base_ simplifies IIFE-centric modularization and creation of namespaces.
------
+
 ## Description
 To instantiate a module simply call the _BaseModule_ constructor with first parameter being _the name of the module_ and the optional second parameter being _an already existing namespace object_.
 
